@@ -37,3 +37,12 @@ INSTRUKCJA:
 - średniki są obowiązkowe! jeśli nie damy, to interpreter niejawnie go nam doda
 - instrukcje są wykonywane z góry na dół - tak jest czytany program
 */
+
+'cos'.toUpperCase();
+'tworzewski'.toUpperCase();
+let name_surname = 'Cezary Tworzewski';
+console.log(name_surname);
+name_surname.toUpperCase();
+let surname = 'TWORZEWSKI';
+console.log(surname);
+surname.toLowerCase();
