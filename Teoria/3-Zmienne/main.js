@@ -49,3 +49,28 @@ let name, age, address;
 let position = [200, 300],
     score = null,
     time = 20.3;
+
+// ---------------------------
+/* ZMIENNE, STAŁE */
+
+// const - zmienna stała
+// let - zmienna
+// var - zmienna przed ES6
+
+
+// let i const można zadeklarować tylko raz w programie, var- wielokrotnie
+let nickName = 'Czarek';
+//const userSurname = 'Tworzewski';
+//let nickName = 'Piotr';
+var tests = 'Michał';
+var tests = 'Wujek'
+
+
+// Jeśli wartość się nie zmieni to używajmy const, jeśli tak to let
+// const nie można przypisać nowej wartości (można modyfikować obiekty)
+// ważny jest zakres zmiennych (scope)
+
+
+// Obiekt globalny z var. Z let i const nie możliwe
+var globaProperty1 = 'za pomocą war'
+let globaProperty2 = 'za pomocą let'
