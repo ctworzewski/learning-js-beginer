@@ -72,5 +72,6 @@ var tests = 'Wujek'
 
 
 // Obiekt globalny z var. Z let i const nie możliwe
+// obiekt globalny - window.globalProperty
 var globaProperty1 = 'za pomocą war'
 let globaProperty2 = 'za pomocą let'
